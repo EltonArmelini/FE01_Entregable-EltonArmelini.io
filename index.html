@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Dog&Cat Petshop - Home</title>
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div>
+            <p class="header-text" >
+                Grandes ofertas en comederos
+            </p>
+        </div>
+        <div>
+          <select class="selection" name="lenguage">
+            <option value="">ESP</option>
+            <option value="">ENG</option>
+            <option value="">POR</option>
+          </select>
+          <select  class="selection"  name="currency">
+            <option value="">ARG$</option>
+            <option value="">USD$</option>
+            <option value="">R$</option>
+          </select>
+        </div>
+      </div>
+      <nav class="navigations" >
+        <div class="logo-container" >
+            <img src="img/icon-cat.png" alt="IlustracionGato">
+            <h1> Front<span>Cat&Dog</span></h1>
+            <img src="img/icon-dog.png" alt="IlustracionPerro">
+        </div>
+        <ul>
+          <li>
+            <img src="img/pawprint-small.png" alt="pawprint-small_icon"><a class="links" 
+              href="#"
+              > Categorías</a
+            >
+          </li>
+          <li>
+            <img src="img/pawprint-small.png" alt="pawprint-small_icon"><a class="links"
+              href="#"
+              > Pets</a
+            >
+          </li>
+          <li>
+            <img src="img/pawprint-small.png" alt="pawprint-small_icon"><a class="links" 
+              href="#"
+              > Nosotros</a
+            >
+          </li>
+          <li>
+            <img src="img/pawprint-small.png" alt="pawprint-small_icon"><a class="links" 
+              href="#"
+              > Contactanos</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- slide show -->
+    <div class="slide-show">
+      <section>
+          <p>¡Es un placer tenerte aquí!</p>
+          <h3>¡Comederos en descuento!</h3>
+          <button class="slide-btn" >COMEDEROS</button>
+      </section>
+    </div>
+
+    <!-- main page content -->
+    <main class="containerMain" >
+        <!-- products -->
+        <!-- header -->
+        <sectio class="headerProducts" >
+          <img src="img/pawprint-large.png" alt="pawprintGrande">
+          <h2>Productos Destacados</h2>
+          <p>Comederos - Accesorios - Comida</p>
+        </sectio>
+        <section class="containerProducts" >
+          <article class="products" >
+            <img src="img/img-01.png" alt="Churrasquito" >
+            <h3 class="title-article">Juguete Churrasquito</h3>
+            <p class="price-article">$150</p>
+          </article>
+          <article class="products" >
+            <img src="img/img-02.png" alt="ComederoparaPerro" >
+            <h3 class="title-article">Comedero para perro</h3>
+            <p class="price-article">$250</p>
+          </article>
+          <article class="products" >
+            <img src="img/img-03.png" alt="JugueteHuesito">
+            <h3 class="title-article">Juguete Huesito</h3>
+            <p class="price-article">$650</p>
+          </article>
+        </section>
+
+      <!-- contact form -->
+      <section class="containerForm" >
+        <h3>Contáctanos</h3>        
+        <form action="/../none.php" method="POST" >
+          <input type="text" placeholder="Nombre y Apellido">
+          <input type="text" placeholder="Ingresá tu correo electrónico">
+          <input type="text" placeholder="Teléfono">
+          <div class="conatinerButtons" >
+            <button class="btn reset" >Resetear</button>
+            <button class="btn send" >Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- footer page -->
+    <footer>
+      <!-- news letter -->
+      <div class="newsletter-container" >
+        <div class="newsletter-text" >
+          <img src="img/icon-mail.png" alt="">
+          <p>Suscríbete para más novedades</p>
+        </div>
+        <div class="newsletter-submission" >
+          <input type="text"  placeholder="Ingresá tu correo electronico" >
+          <button class="btn submission" >Suscribirme</button>
+        </div>
+      </div>
+      <!-- information -->
+      <div class="footer" >
+        <!-- address information -->
+        <address class="information-container" >
+          <div class="detail-container">
+            <img src="img/icon-location_footer.png" alt="iconoLocation">
+              <p>Localidad
+                <br>
+                <span class="information-spec" >Calle - provincia</span>
+              </p>
+          </div>
+          <div class="detail-container">
+            <img src="img/icon-phone_footer.png" alt="iconoTelefono">
+              <p>Teléfono
+                <br>
+                <span class="information-spec" >Número de teléfono</span>
+              </p>
+          </div>
+          <div class="detail-container">
+            <img src="img/icon-mail_footer.png" alt="iconoMail">
+            <div>
+              <p>Correo Electrónico
+                <br>
+                <span class="information-spec" >Dirección de correo</span>
+              </p>
+            </div>
+          </div>
+        </address>
+        <!-- banner -->
+        <div class="logo-container" >
+            <img src="img/icon-cat.png" alt="IlustracionGato">
+            <p> Front<span>Cat&Dog</span></p>
+            <img src="img/icon-dog.png" alt="IlustracionPerro">
+        </div>
+      </div>
+      <!-- copy right -->
+      <div class="footer-copyright" >
+        <p>Todos los derechos reservados Front End</p>
+      </div>
+    </footer>
+  </body>
+</html>
